@@ -1,5 +1,5 @@
 name: flutter_proyecto_1
-description: A new Flutter project.
+description: UVG - Proyectos de TI - Proyecto 1
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -23,6 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^4.3.1
+  fluro: ^1.6.3
+  http: ^0.12.1
 
 
   # The following adds the Cupertino Icons font to your application.
