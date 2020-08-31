@@ -1,11 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_proyecto_1/router.dart';
+import 'package:flutter_proyecto_1/services/auth_service.dart';
+import 'package:flutter_proyecto_1/services/db_service.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   // Initialization.
   FluroRouter.initialize();
 
-  runApp(MyApp());
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (c) => AuthService(),
+          lazy: false,
+        ),
+        ChangeNotifierProvider(
+          create: (c) => DbService(),
+          lazy: false,
+        ),
+      ],
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
