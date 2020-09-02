@@ -5,6 +5,9 @@ class AuthService extends ChangeNotifier {
   static AuthService _instance = AuthService._internal();
   final _auth = FirebaseAuth.instance;
 
+  /// simular login true por ahora
+  bool get isLoggedIn => true;
+
   AuthService._internal() {
     _init();
   }

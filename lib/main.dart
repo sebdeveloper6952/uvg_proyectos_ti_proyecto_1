@@ -13,11 +13,11 @@ void main() {
       providers: [
         ChangeNotifierProvider(
           create: (c) => AuthService(),
-          lazy: false,
+          lazy: true,
         ),
         ChangeNotifierProvider(
           create: (c) => DbService(),
-          lazy: false,
+          lazy: true,
         ),
       ],
       child: MyApp(),
