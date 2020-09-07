@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "345297156696",
-    "firebase_url": "https://proyectos-ti-proyecto-1.firebaseio.com",
-    "project_id": "proyectos-ti-proyecto-1",
-    "storage_bucket": "proyectos-ti-proyecto-1.appspot.com"
+    "project_number": "1059162248658",
+    "firebase_url": "https://uvg-admin-proyecto.firebaseio.com",
+    "project_id": "uvg-admin-proyecto",
+    "storage_bucket": "uvg-admin-proyecto.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:345297156696:android:ce5854fca64ee5b38fa82d",
+        "mobilesdk_app_id": "1:1059162248658:android:ef9c1b9efe72a0c04f640b",
         "android_client_info": {
           "package_name": "com.sebdeveloper6952.flutter_proyecto_1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "345297156696-d7ocukeltr7c9lqpn3e58f0f1aqlnl6j.apps.googleusercontent.com",
+          "client_id": "1059162248658-d5vugqn20req8sc0cu029gmivme8u25s.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA03UNQ-7ikvOGSDToiySGkb3Wv7DA9pRc"
+          "current_key": "AIzaSyBIp4tph4MWK_Q9GDIJIIkp5N-xsTk6wXw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "345297156696-d7ocukeltr7c9lqpn3e58f0f1aqlnl6j.apps.googleusercontent.com",
+              "client_id": "1059162248658-d5vugqn20req8sc0cu029gmivme8u25s.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
