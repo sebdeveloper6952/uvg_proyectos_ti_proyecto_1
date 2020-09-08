@@ -4,9 +4,10 @@ import 'package:flutter/material.dart';
 class AuthService extends ChangeNotifier {
   static AuthService _instance = AuthService._internal();
   final _auth = FirebaseAuth.instance;
+  bool _isLoggedIn = false;
 
   /// simular login true por ahora
-  bool get isLoggedIn => false;
+  bool get isLoggedIn => _isLoggedIn;
 
   AuthService._internal() {
     _init();
@@ -18,10 +19,10 @@ class AuthService extends ChangeNotifier {
 
   void _init() {
     _auth.authStateChanges().listen((User user) {
-      if (user == null) {
-        print('User is logged out, show login screen.');
-      } else {
-        print('User is logged in, show home screen.');
+      if (user != null) {
+        print('User is logged in.');
+        _isLoggedIn = true;
+        notifyListeners();
       }
     });
   }
@@ -45,8 +46,7 @@ class AuthService extends ChangeNotifier {
     return false;
   }
 
-
-  Future<bool>  login(String email, String password) async {
+  Future<bool> login(String email, String password) async {
     try {
       final userCredential = await FirebaseAuth.instance
           .signInWithEmailAndPassword(email: email, password: password);
@@ -58,7 +58,7 @@ class AuthService extends ChangeNotifier {
       } else if (e.code == 'wrong-password') {
         print('Wrong password provided for that user.');
       }
-    }catch (e) {
+    } catch (e) {
       print(e.toString());
       return false;
     }

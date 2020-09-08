@@ -16,18 +16,15 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+    final GlobalKey<ScaffoldState> _scaffoldKey =
+        new GlobalKey<ScaffoldState>();
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
         title: Text("LOGIN"),
         centerTitle: true,
-        actionsIconTheme: IconThemeData(
-        size: 30.0,
-        color: Colors.black,
-        opacity: 10.0
-
-        ),
+        actionsIconTheme:
+            IconThemeData(size: 30.0, color: Colors.black, opacity: 10.0),
       ),
       body: Center(
         child: Form(
@@ -73,19 +70,17 @@ class _LoginScreenState extends State<LoginScreen> {
                       // the form is invalid.
                       if (_formKey.currentState.validate()) {
                         // Process data.
-                        bool result = await context
-                            .read<AuthService>()
-                            .login(email, pw);
+                        bool result =
+                            await context.read<AuthService>().login(email, pw);
                         SnackBar notification;
                         if (result) {
-                          FluroRouter.router.navigateTo(context, '/home', clearStack: true);
+                          FluroRouter.router
+                              .navigateTo(context, '/home', clearStack: true);
                         } else {
                           notification =
-                          SnackBar(content: Text(
-                                  'Usuario incorrecto'));
+                              SnackBar(content: Text('Usuario incorrecto'));
                         }
                         _scaffoldKey.currentState.showSnackBar(notification);
-                        
                       }
                     },
                     child: Text('Ingresar'),
@@ -94,13 +89,12 @@ class _LoginScreenState extends State<LoginScreen> {
                 Container(
                   child: FlatButton(
                     onPressed: () {
-                      FluroRouter.router.navigateTo(context, '/register', clearStack: true);
+                      FluroRouter.router.navigateTo(context, '/register');
                     },
                     child: Text(
                       "No tienes cuenta?",
                     ),
                   ),
-
                 )
               ],
             )),

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_proyecto_1/utils.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_proyecto_1/router.dart';
 import '../services/auth_service.dart';
+import 'package:flutter_proyecto_1/shared/progress_dialog.dart';
 
 class RegisterScreen extends StatefulWidget {
   RegisterScreen({Key key}) : super(key: key);
@@ -13,6 +15,7 @@ class RegisterScreen extends StatefulWidget {
 class _RegisterScreenState extends State<RegisterScreen> {
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  final _passFNode = FocusNode();
   String email, pw;
 
   @override
@@ -20,6 +23,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () => Navigator.pop(context),
+        ),
         title: Text("Registro de usuario"),
       ),
       body: Center(
@@ -32,6 +39,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 Container(
                   margin: EdgeInsets.all(15),
                   child: TextFormField(
+                    keyboardType: TextInputType.emailAddress,
                     onChanged: (value) => email = value,
                     decoration: const InputDecoration(
                       hintText: 'Ingrese su usuario',
@@ -42,11 +50,16 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       }
                       return null;
                     },
+                    onFieldSubmitted: (_) {
+                      _passFNode.requestFocus();
+                    },
                   ),
                 ),
                 Container(
                   margin: EdgeInsets.all(15),
                   child: TextFormField(
+                      focusNode: _passFNode,
+                      obscureText: true,
                       onChanged: (value) => pw = value,
                       decoration: InputDecoration(
                         hintText: 'Contraseña',
@@ -65,17 +78,24 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       // Validate will return true if the form is valid, or false if
                       // the form is invalid.
                       if (_formKey.currentState.validate()) {
-                        // Process data.
+                        /// mostrar dialogo de progreso
+                        Utils.showProgressDialog(context, 'Creando cuenta...');
                         bool result = await context
                             .read<AuthService>()
                             .createUser(email, pw);
+                        /* con esto se "quita" la pantalla que esta hasta arriba
+                           del "stack" de pantallas, en este caso es el dialogo
+                           de progreso */
+                        Navigator.pop(context);
+
+                        /// mostrar snackbar
                         SnackBar notification;
                         if (result) {
                           notification =
                               SnackBar(content: Text('Usuario registrado:)'));
                         } else {
-                          notification =
-                          SnackBar(content: Text(
+                          notification = SnackBar(
+                              content: Text(
                                   'Felicidades, no se ha creado el usuario'));
                         }
                         _scaffoldKey.currentState.showSnackBar(notification);
@@ -87,13 +107,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 Container(
                   child: FlatButton(
                     onPressed: () {
-                      FluroRouter.router.navigateTo(context, '/login', clearStack: true);
+                      FluroRouter.router
+                          .navigateTo(context, '/login', clearStack: true);
                     },
                     child: Text(
                       "Ya tienes cuenta?",
                     ),
                   ),
-
                 )
               ],
             )),

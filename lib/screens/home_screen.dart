@@ -8,8 +8,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  // final Future<FirebaseApp> _init = Firebase.initializeApp();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
