@@ -6,7 +6,7 @@ class AuthService extends ChangeNotifier {
   final _auth = FirebaseAuth.instance;
 
   /// simular login true por ahora
-  bool get isLoggedIn => true;
+  bool get isLoggedIn => false;
 
   AuthService._internal() {
     _init();
@@ -26,11 +26,12 @@ class AuthService extends ChangeNotifier {
     });
   }
 
-  void createUser(String email, String password) async {
+  Future<bool> createUser(String email, String password) async {
     try {
       final userCredential = await FirebaseAuth.instance
           .createUserWithEmailAndPassword(email: email, password: password);
       print('User created!!!!!!!11');
+      return true;
     } on FirebaseAuthException catch (e) {
       if (e.code == 'weak-password') {
         print('The password provided is too weak.');
@@ -39,7 +40,9 @@ class AuthService extends ChangeNotifier {
       }
     } catch (e) {
       print(e.toString());
+      return false;
     }
+    return false;
   }
 
   void login(String email, String password) async {

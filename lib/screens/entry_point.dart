@@ -15,7 +15,8 @@ class _EntryPointScreenState extends State<EntryPointScreen> {
   @override
   void initState() {
     _init.then((value) {
-      final route = context.read<AuthService>().isLoggedIn ? '/home' : '/login';
+      final route =
+          context.read<AuthService>().isLoggedIn ? '/home' : '/register';
       FluroRouter.router.navigateTo(context, route, clearStack: true);
     });
     super.initState();
