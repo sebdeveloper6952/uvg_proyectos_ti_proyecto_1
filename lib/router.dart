@@ -3,6 +3,7 @@ import 'package:fluro/fluro.dart';
 import 'package:flutter_proyecto_1/screens/entry_point.dart';
 import 'package:flutter_proyecto_1/screens/home_screen.dart';
 import 'package:flutter_proyecto_1/screens/login_screen.dart';
+import 'package:flutter_proyecto_1/screens/register_screen.dart';
 
 class FluroRouter {
   static Router router = Router();
@@ -19,6 +20,10 @@ class FluroRouter {
     handlerFunc: (BuildContext c, Map<String, dynamic> p) => HomeScreen(),
   );
 
+  static Handler _registerHandler = Handler(
+    handlerFunc: (BuildContext c, Map<String, dynamic> p) => RegisterScreen(),
+  );
+
   static void initialize() {
     router.define(
       '/',
@@ -33,6 +38,12 @@ class FluroRouter {
     router.define(
       '/home',
       handler: _homeScreenHandler,
+      transitionType: TransitionType.inFromBottom,
+    );
+
+    router.define(
+      '/register',
+      handler: _registerHandler,
       transitionType: TransitionType.inFromBottom,
     );
   }
