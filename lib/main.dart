@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.orange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      initialRoute: '/register',
+      initialRoute: '/login',
       onGenerateRoute: FluroRouter.router.generator,
     );
   }

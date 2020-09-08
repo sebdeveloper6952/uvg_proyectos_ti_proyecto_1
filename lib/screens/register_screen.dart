@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
+import 'package:flutter_proyecto_1/router.dart';
 import '../services/auth_service.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -12,12 +12,13 @@ class RegisterScreen extends StatefulWidget {
 
 class _RegisterScreenState extends State<RegisterScreen> {
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-
+  GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
   String email, pw;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _scaffoldKey,
       appBar: AppBar(
         title: Text("Registro de usuario"),
       ),
@@ -73,16 +74,27 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           notification =
                               SnackBar(content: Text('Usuario registrado:)'));
                         } else {
-                          SnackBar(
-                              content: Text(
+                          notification =
+                          SnackBar(content: Text(
                                   'Felicidades, no se ha creado el usuario'));
                         }
-                        Scaffold.of(context).showSnackBar(notification);
+                        _scaffoldKey.currentState.showSnackBar(notification);
                       }
                     },
                     child: Text('Crear usuario'),
                   ),
                 ),
+                Container(
+                  child: FlatButton(
+                    onPressed: () {
+                      FluroRouter.router.navigateTo(context, '/login', clearStack: true);
+                    },
+                    child: Text(
+                      "Ya tienes cuenta?",
+                    ),
+                  ),
+
+                )
               ],
             )),
       ),

@@ -45,17 +45,23 @@ class AuthService extends ChangeNotifier {
     return false;
   }
 
-  void login(String email, String password) async {
+
+  Future<bool>  login(String email, String password) async {
     try {
       final userCredential = await FirebaseAuth.instance
           .signInWithEmailAndPassword(email: email, password: password);
       print('User logged in!!!!1');
+      return true;
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
         print('No user found for that email.');
       } else if (e.code == 'wrong-password') {
         print('Wrong password provided for that user.');
       }
+    }catch (e) {
+      print(e.toString());
+      return false;
     }
+    return false;
   }
 }
