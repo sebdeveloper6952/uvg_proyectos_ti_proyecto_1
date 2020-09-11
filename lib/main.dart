@@ -33,7 +33,38 @@ class MyApp extends StatelessWidget {
       title: 'PMBOKlingo',
       theme: ThemeData(
         primarySwatch: Colors.orange,
+        accentColor: Colors.blueAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        inputDecorationTheme: InputDecorationTheme(
+          focusedBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.all(Radius.circular(10.0)),
+            borderSide: BorderSide(
+              color: Colors.blueAccent,
+              width: 3.0,
+            ),
+          ),
+          enabledBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.all(Radius.circular(10.0)),
+            borderSide: BorderSide(
+              width: 2.0,
+              color: Colors.orange,
+            ),
+          ),
+          errorBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.all(Radius.circular(10.0)),
+            borderSide: BorderSide(
+              width: 2.0,
+              color: Colors.red[300],
+            ),
+          ),
+          focusedErrorBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.all(Radius.circular(10.0)),
+            borderSide: BorderSide(
+              width: 2.0,
+              color: Colors.red[300],
+            ),
+          ),
+        ),
       ),
       initialRoute: '/login',
       onGenerateRoute: FluroRouter.router.generator,
