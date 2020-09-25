@@ -65,6 +65,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
+        buttonTheme: ButtonThemeData(buttonColor: Colors.orange),
       ),
       initialRoute: '/login',
       onGenerateRoute: FluroRouter.router.generator,
