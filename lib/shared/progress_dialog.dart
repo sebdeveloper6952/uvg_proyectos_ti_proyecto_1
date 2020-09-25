@@ -18,7 +18,6 @@ class ProgressDialog extends StatelessWidget {
           ),
         ),
         title: Text(title),
-        backgroundColor: Theme.of(context).backgroundColor,
         children: <Widget>[
           Center(
             child: Container(
