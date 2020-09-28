@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'PMBOKlingo',
       theme: ThemeData(
+        fontFamily: 'Overpass',
         primarySwatch: Colors.orange,
         accentColor: Colors.blueAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
