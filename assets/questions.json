@@ -1,0 +1,878 @@
+{
+    "1": {
+        "pregunta": "¿Cuál es el objetivo de la gestión de costos del proyecto?",
+        "respuestas": [
+            "Asegurar que el proyecto se complete dentro del presupuesto aprobado, a través de planificar, estimar, presupuestar, financiar, y gestionar los costos.",
+            ""
+        ],
+        "correcta": "Asegurar que el proyecto se complete dentro del presupuesto aprobado, a través de planificar, estimar, presupuestar, financiar, y gestionar los costos.",
+        "capitulo": "Capítulo 7"
+    },
+    "2": {
+        "pregunta": "¿Cuántos procesos tiene la gestión de costos del proyecto?",
+        "respuestas": [4, 3, 5, 6],
+        "correcta": 4,
+        "capitulo": "Capítulo 7"
+    },
+    "3": {
+        "pregunta": "¿Cuáles son los procesos de la gestión de costos del proyecto?",
+        "respuestas": [
+            "Planificar la gestión de costos, estimar los costos, determinar el presupuesto, controlar los costos.",
+            ""
+        ],
+        "correcta": "Planificar la gestión de costos, estimar los costos, determinar el presupuesto, controlar los costos.",
+        "capitulo": "Capítulo 7"
+    },
+    "4": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Planificar la Gestión de Costos”?",
+        "respuestas": [
+            "Definir cómo se han de estimar, presupuestar, y gestionar los costos.",
+            ""
+        ],
+        "correcta": "Definir cómo se han de estimar, presupuestar, y gestionar los costos.",
+        "capitulo": "Capítulo 7"
+    },
+    "5": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Estimar los Costos”?",
+        "respuestas": [
+            "Desarrollar una aproximación del costo de los recursos necesarios para completar el proyecto.",
+            ""
+        ],
+        "correcta": "Desarrollar una aproximación del costo de los recursos necesarios para completar el proyecto.",
+        "capitulo": "Capítulo 7"
+    },
+    "6": {
+        "pregunta": "¿Cuál es el beneficio clave del proceso “Determinar el Presupuesto”?",
+        "respuestas": [
+            "Determina la línea base de costos.",
+            ""
+        ],
+        "correcta": "Determina la línea base de costos.",
+        "capitulo": "Capítulo 7"
+    },
+    "7": {
+        "pregunta": "¿Cuál es el beneficio clave del proceso “Controlar los Costos”?",
+        "respuestas": [
+            "Se mantiene la línea base de costos a lo largo de todo el proyecto.",
+            ""
+        ],
+        "correcta": "Se mantiene la línea base de costos a lo largo de todo el proyecto.",
+        "capitulo": "Capítulo 7"
+    },
+    "8": {
+        "pregunta": "¿Cuál es el objetivo de la Gestión de Calidad del Proyecto?",
+        "respuestas": [
+            "Incorporar la política de calidad de la organización al proyecto.",
+            ""
+        ],
+        "correcta": "Incorporar la política de calidad de la organización al proyecto.",
+        "capitulo": "Capítulo 8"
+    },
+    "9": {
+        "pregunta": "¿Cuántos procesos tiene la Gestión de Calidad del Proyecto?",
+        "respuestas": [3, 4, 5, 2],
+        "correcta": 3,
+        "capitulo": "Capítulo 8"
+    },
+    "10": {
+        "pregunta": "¿Cuáles son los procesos de la Gestión de Calidad del Proyecto?",
+        "respuestas": [
+            "Planificar la gestión de la calidad, gestionar la calidad, controlar la calidad."
+        ],
+        "correcta": "Planificar la gestión de la calidad, gestionar la calidad, controlar la calidad.",
+        "capitulo": "Capítulo 8"
+    },
+    "11": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Planificar la Gestión de la Calidad”?",
+        "respuestas": [
+            "Identificar los requisitos y estándares de calidad para el proyecto."
+        ],
+        "correcta": "Identificar los requisitos y estándares de calidad para el proyecto.",
+        "capitulo": "Capítulo 8"
+    },
+    "12": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Gestionar la Calidad”?",
+        "respuestas": [
+            "Convertir el plan de gestión de calidad en actividades ejecutables de calidad."
+        ],
+        "correcta": "Convertir el plan de gestión de calidad en actividades ejecutables de calidad.",
+        "capitulo": "Capítulo 8"
+    },
+    "13": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Controlar la Calidad”?",
+        "respuestas": [
+            "Asegurar que los entregables satisfagan las expectativas del cliente."
+        ],
+        "correcta": "Asegurar que los entregables satisfagan las expectativas del cliente.",
+        "capitulo": "Capítulo 8"
+    },
+    "14": {
+        "pregunta": "¿Cuál es el objetivo de la Gestión de Recursos del Proyecto?",
+        "respuestas": [
+            "Identificar, adquirir y gestionar los recursos necesarios para completar el proyecto."
+        ],
+        "correcta": "Identificar, adquirir y gestionar los recursos necesarios para completar el proyecto.",
+        "capitulo": "Capítulo 9"
+    },
+    "15": {
+        "pregunta": "¿Cuántos procesos tiene la Gestión de Recursos del Proyecto?",
+        "respuestas": [6, 5, 3, 4],
+        "correcta": 6,
+        "capitulo": "Capítulo 9"
+    },
+    "16": {
+        "pregunta": "¿Cuáles son los procesos de la Gestión de Recursos del Proyecto?",
+        "respuestas": [
+            "Planificar la gestión de recursos, estimar los recursos de cada actividad, adquirir recursos, desarrollar el equipo, dirigir el equipo."
+        ],
+        "correcta": "Planificar la gestión de recursos, estimar los recursos de cada actividad, adquirir recursos, desarrollar el equipo, dirigir el equipo.",
+        "capitulo": "Capítulo 9"
+    },
+    "17": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Planificar la Gestión de Recursos”?",
+        "respuestas": [
+            "Definir cómo estimar, adquirir, gestionar y utilizar los recursos físicos y del equipo."
+        ],
+        "correcta": "Definir cómo estimar, adquirir, gestionar y utilizar los recursos físicos y del equipo.",
+        "capitulo": "Capítulo 9"
+    },
+    "18": {
+        "pregunta": "¿Qué herramientas se utilizan en el proceso “Estimar los Recursos de las Actividades”?",
+        "respuestas": [
+            "Estimación ascendente, análoga, paramétrica. Análisis de datos para alternativas. PMIS. Reuniones."
+        ],
+        "correcta": "Estimación ascendente, análoga, paramétrica. Análisis de datos para alternativas. PMIS. Reuniones.",
+        "capitulo": "Capítulo 9"
+    },
+    "19": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Adquirir Recursos”?",
+        "respuestas": [
+            "Guía la selección de recursos y los asigna a sus respectivas actividades."
+        ],
+        "correcta": "Guía la selección de recursos y los asigna a sus respectivas actividades.",
+        "capitulo": "Capítulo 9"
+    },
+    "20": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Desarrollar al Equipo”?",
+        "respuestas": [
+            "Mejorar las competencias, interacción y ambiente general del equipo."
+        ],
+        "correcta": "Mejorar las competencias, interacción y ambiente general del equipo.",
+        "capitulo": "Capítulo 9"
+    },
+    "21": {
+        "pregunta": "¿Cuál es el beneficio clave del proceso “Dirigir al Equipo”?",
+        "respuestas": [
+            "Influye en el comportamiento del equipo y resuelve problemas."
+        ],
+        "correcta": "Influye en el comportamiento del equipo y resuelve problemas.",
+        "capitulo": "Capítulo 9"
+    },
+    "22": {
+        "pregunta": "¿Cuál es el objetivo del proceso “Controlar los Recursos”?",
+        "respuestas": [
+            "Asegurar que los recursos asignados estén disponibles, y monitorear su uso planificado vs. uso real."
+        ],
+        "correcta": "Asegurar que los recursos asignados estén disponibles, y monitorear su uso planificado vs. uso real.",
+        "capitulo": "Capítulo 9"
+    },
+    "23": {
+        "pregunta": "¿Cómo se subdivide la gestión de comunicación?",
+        "respuestas": [
+            "Planificar gestión de comunicaciones, gestionar comunicación, monitoreo de comunicación."
+        ],
+        "correcta": "Planificar gestión de comunicaciones, gestionar comunicación, monitoreo de comunicación.",
+        "capitulo": "Capítulo 10"
+    },
+    "24": {
+        "pregunta": "¿Que tipo de métodos de communicación existen?",
+        "respuestas": [
+            "Interactiva, push y pull."
+        ],
+        "correcta": "Interactiva, push y pull.",
+        "capitulo": "Capítulo 10"
+    },
+    "25": {
+        "pregunta": "¿Cómo se segmenta y evita filtrado de información confidencial?",
+        "respuestas": [
+            "Organigramas que permiten acceso a la información. Identificar relaciones e interdependencias de los organizados, contratos de NDA."
+        ],
+        "correcta": "Organigramas que permiten acceso a la información. Identificar relaciones e interdependencias de los organizados, contratos de NDA.",
+        "capitulo": "Capítulo 10"
+    },
+    "26": {
+        "pregunta": "¿Que consiste el esquema 5C?",
+        "respuestas": [
+            "Concisos, Correctos, Claro, Coherente, Controlado."
+        ],
+        "correcta": "Concisos, Correctos, Claro, Coherente, Controlado.",
+        "capitulo": "Capítulo 10"
+    },
+    "27": {
+        "pregunta": "¿Qué es el tipo de comunicación interactiva?",
+        "respuestas": [
+            "Comunicación a tiempo real."
+        ],
+        "correcta": "Comunicación a tiempo real.",
+        "capitulo": "Capítulo 10"
+    },
+    "28": {
+        "pregunta": "¿Qué es comunicación tipo push?",
+        "respuestas": [
+            "Enviar y distribuir información a receptores definidos."
+        ],
+        "correcta": "Enviar y distribuir información a receptores definidos.",
+        "capitulo": "Capítulo 10"
+    },
+    "29": {
+        "pregunta": "¿Que es la comunicación de tipo pull?",
+        "respuestas": [
+            "El usuario ingresa a una plataforma para obtener información."
+        ],
+        "correcta": "El usuario ingresa a una plataforma para obtener información.",
+        "capitulo": "Capítulo 10"
+    },
+    "30": {
+        "pregunta": "¿Cómo se envía información urgente de niveles en el organigrama bajos a altos?",
+        "respuestas": [
+            "Procesos de escalamiento, donde una persona informa sobre la información a sus superiores."
+        ],
+        "correcta": "Procesos de escalamiento, donde una persona informa sobre la información a sus superiores.",
+        "capitulo": "Capítulo 10"
+    },
+    "31": {
+        "pregunta": "¿Qué buenas prácticas de comunicación existen?",
+        "respuestas": [
+            "Inclusión de interesados en las reuniones del proyecto",
+            "Inclusión de los interesados en revisiones del proyecto",
+            "Uso de medios digitales",
+            "Todas las anteriores."
+        ],
+        "correcta": "Todas las anteriores.",
+        "capitulo": "Capítulo 10"
+    },
+    "32": {
+        "pregunta": "¿Qué especifica la gestión de riesgos?",
+        "respuestas": [
+            "Planes de contingencia, documentación, registros de incidentes, análisis de riesgos."
+        ],
+        "correcta": "Planes de contingencia, documentación, registros de incidentes, análisis de riesgos.",
+        "capitulo": "Capítulo 11"
+    },
+    "33": {
+        "pregunta": "¿Cómo se clasifican los riesgos de un proyecto?",
+        "respuestas": [
+            "Individual y general, donde el individual afecta un objetivo especifico del proyecto, y el otro afecta a todo el proyecto."
+        ],
+        "correcta": "Individual y general, donde el individual afecta un objetivo especifico del proyecto, y el otro afecta a todo el proyecto.",
+        "capitulo": "Capítulo 11"
+    },
+    "34": {
+        "pregunta": "¿Puede un riesgo ser positivo?",
+        "respuestas": [
+            "Sí", "No"
+        ],
+        "correcta": "Sí",
+        "capitulo": "Capítulo 11"
+    },
+    "35": {
+        "pregunta": "¿Puede un riesgo ser positivo?",
+        "respuestas": [
+            "Sí", "No"
+        ],
+        "correcta": "Sí",
+        "capitulo": "Capítulo 11"
+    },
+    "36": {
+        "pregunta": "¿Por que se realiza un registro de incidentes?",
+        "respuestas": [
+            "Sirven para analizar que causó el incidente, las condiciones y posibles planes de contingencia."
+        ],
+        "correcta": "Sirven para analizar que causó el incidente, las condiciones y posibles planes de contingencia.",
+        "capitulo": "Capítulo 11"
+    },
+    "37": {
+        "pregunta": "¿Que es el juicio de expertos?",
+        "respuestas": [
+            "Grupo de personas que emiten sus recomendaciones con base a la información recolectada por el equipo designado a la gestión de riesgos, sirven como consejo."
+        ],
+        "correcta": "Grupo de personas que emiten sus recomendaciones con base a la información recolectada por el equipo designado a la gestión de riesgos, sirven como consejo.",
+        "capitulo": "Capítulo 11"
+    },
+    "38": {
+        "pregunta": "¿Cuales son los documentos de salida de la gestión de riesgo?",
+        "respuestas": [
+            "Registro de incidentes, Registro de riesgos, Informe de riesgos."
+        ],
+        "correcta": "Registro de incidentes, Registro de riesgos, Informe de riesgos.",
+        "capitulo": "Capítulo 11"
+    },
+    "39": {
+        "pregunta": "¿Cuál es la diferencia entre registro de riesgos e informe de riesgos?",
+        "respuestas": [
+            "Registro de riesgos incluye probabilidad de e impacto de ccada riesgo, el informe de riesgos lista los mas probables."
+        ],
+        "correcta": "Registro de riesgos incluye probabilidad de e impacto de ccada riesgo, el informe de riesgos lista los mas probables.",
+        "capitulo": "Capítulo 11"
+    },
+    "40": {
+        "pregunta": "¿Cómo se visualizan todos los riesgos del proyecto?",
+        "respuestas": [
+            "Matriz de probabilidad e impacto. Esta lista en 3 dimensiones todos los riesgos."
+        ],
+        "correcta": "Matriz de probabilidad e impacto. Esta lista en 3 dimensiones todos los riesgos.",
+        "capitulo": "Capítulo 11"
+    },
+    "41": {
+        "pregunta": "¿Por qué estructura la gestión de riesgos?",
+        "respuestas": [
+            "Actividades que buscan mitigar los efectos negativos de un riesgo asociado al proyecto."
+        ],
+        "correcta": "Actividades que buscan mitigar los efectos negativos de un riesgo asociado al proyecto.",
+        "capitulo": "Capítulo 11"
+    },
+    "42": {
+        "pregunta": "¿En una contratación internacional de servicios que normas legales rigen el contrato?",
+        "respuestas": [
+            "Legalmente, es vinculante el contrato a leyes internacionales de comercio. Especialmente respecto temas de copyright, etc."
+        ],
+        "correcta": "Legalmente, es vinculante el contrato a leyes internacionales de comercio. Especialmente respecto temas de copyright, etc.",
+        "capitulo": "Capítulo 12"
+    },
+    "43": {
+        "pregunta": "¿Cuales son las 3 grandes ramas de subdivisión de gestión de adquisiciones?",
+        "respuestas": [
+            "Planificar gestión de adquisiciones, Efectuar adquisiciones, Controlar adquisiones."
+        ],
+        "correcta": "Planificar gestión de adquisiciones, Efectuar adquisiciones, Controlar adquisiones.",
+        "capitulo": "Capítulo 12"
+    },
+    "44": {
+        "pregunta": "¿Bajo que escrutinio tiene que pasar un potencial vendedor, profesional o proveedor del proyecto?",
+        "respuestas": [
+            "El debe pasar por escrutinio administrativo sobre que tan adecuado es el servicio o producto ofrecido a la empresa, además debe pasar por escrutinio legal para firma de contratos."
+        ],
+        "correcta": "El debe pasar por escrutinio administrativo sobre que tan adecuado es el servicio o producto ofrecido a la empresa, además debe pasar por escrutinio legal para firma de contratos.",
+        "capitulo": "Capítulo 12"
+    },
+    "45": {
+        "pregunta": "¿Cómo se mide la contribución del servicio/producto adquirido en el proyecto?",
+        "respuestas": [
+            "Se mide su contribución en la matriz de trazabilidad de requisitos, las actividades que satisfacen el requisito del proyecto desde la concepción del requisito hasta su satisfacción."
+        ],
+        "correcta": "Se mide su contribución en la matriz de trazabilidad de requisitos, las actividades que satisfacen el requisito del proyecto desde la concepción del requisito hasta su satisfacción.",
+        "capitulo": "Capítulo 12"
+    },
+    "46": {
+        "pregunta": "¿Deben participar en transferencia de conocimiento entre equipo, subcontratados?",
+        "respuestas": [
+            "Sí", "No"
+        ],
+        "correcta": "Sí",
+        "capitulo": "Capítulo 12"
+    },
+    "47": {
+        "pregunta": "¿Que valores se toman más en cuentaal seleccionar un servicio/vendedor?",
+        "respuestas": [
+            "Cada responsible de contratación especifica sus necesidades, por lo cual esto puede variar en cada proyecto."
+        ],
+        "correcta": "Cada responsible de contratación especifica sus necesidades, por lo cual esto puede variar en cada proyecto.",
+        "capitulo": "Capítulo 12"
+    },
+    "48": {
+        "pregunta": "¿Qué son los documentos de licitaciones?",
+        "respuestas": [
+            "Documentos que piden información adicional al vendedor/contratista."
+        ],
+        "correcta": "Documentos que piden información adicional al vendedor/contratista.",
+        "capitulo": "Capítulo 12"
+    },
+    "49": {
+        "pregunta": "¿Qué responsabilidad tiene el equipo de dirección de proyecto respecto a contrataciones?",
+        "respuestas": [
+            "Es responsabilidad del equipo de dirección del proyecto garantizar que todas las adquisiciones satisfagan las necesidades específicas del proyecto."
+        ],
+        "correcta": "Es responsabilidad del equipo de dirección del proyecto garantizar que todas las adquisiciones satisfagan las necesidades específicas del proyecto.",
+        "capitulo": "Capítulo 12"
+    },
+    "50": {
+        "pregunta": "¿Que es un proyecto?",
+        "respuestas": [
+            "Es un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único."
+        ],
+        "correcta": "Es un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único.",
+        "capitulo": "Parte II - Capítulo 1"
+    },
+    "51": {
+        "pregunta": "¿Que es un programa?",
+        "respuestas": [
+            "Un programa se define como proyectos relacionados, programas subsidiarios y actividades de programas, cuya gestión se realiza de manera coordinada para obtener beneficios que no se obtendrían si se gestionan de forma individual."
+        ],
+        "correcta": "Un programa se define como proyectos relacionados, programas subsidiarios y actividades de programas, cuya gestión se realiza de manera coordinada para obtener beneficios que no se obtendrían si se gestionan de forma individual.",
+        "capitulo": "Parte II - Capítulo 1"
+    },
+    "52": {
+        "pregunta": "¿Que es un portafolio?",
+        "respuestas": [
+            "Un portafolio se define como los proyectos, programas, portafolios subsidiarios y operaciones cuya gestión se realiza de manera coordinada para alcanzar los objetivos estratégicos."
+        ],
+        "correcta": "Un portafolio se define como los proyectos, programas, portafolios subsidiarios y operaciones cuya gestión se realiza de manera coordinada para alcanzar los objetivos estratégicos.",
+        "capitulo": "Parte II - Capítulo 1"
+    },
+    "53": {
+        "pregunta": "¿Cuáles son los tres escenarios en los que se puede dirigir un proyecto?",
+        "respuestas": [
+            "Como un proyecto independiente, dentro de un programa y dentro de un portafolio."
+        ],
+        "correcta": "Como un proyecto independiente, dentro de un programa y dentro de un portafolio.",
+        "capitulo": "Parte II - Capítulo 1"
+    },
+    "54": {
+        "pregunta": "¿Cuál es el objetivo de tener un grupo de procesos de inicio?",
+        "respuestas": [
+            "Alinear las expectativas de los interesados y el propósito del proyecto, informar a los interesados sobre el alcance, objetivos, y analizar cómo su participación en el proyecto puede ayudar a asegurar el cumplimiento de sus expectativas."
+        ],
+        "correcta": "Alinear las expectativas de los interesados y el propósito del proyecto, informar a los interesados sobre el alcance, objetivos, y analizar cómo su participación en el proyecto puede ayudar a asegurar el cumplimiento de sus expectativas.",
+        "capitulo": "Parte II - Capítulo 2"
+    },
+    "55": {
+        "pregunta": "¿Cuando se deben de realizar un grupo de procesos de inicio?",
+        "respuestas": [
+            "Al definir un nuevo proyecto o una nueva fase de un proyecto existente."
+        ],
+        "correcta": "Al definir un nuevo proyecto o una nueva fase de un proyecto existente.",
+        "capitulo": "Parte II - Capítulo 2"
+    },
+    "56": {
+        "pregunta": "¿Quiénes deben de estar involucrados durante un grupo de procesos de inicio?",
+        "respuestas": [
+            "Patrocinadores, clientes y a otros interesados."
+        ],
+        "correcta": "Patrocinadores, clientes y a otros interesados.",
+        "capitulo": "Parte II - Capítulo 2"
+    },
+    "57": {
+        "pregunta": "¿Qué es un Acta de constitución del proyecto?",
+        "respuestas": [
+            "Un documento que autoriza formalmente la existencia de un proyecto y confiere al director de proyecto la autoridad para asignar recursos."
+        ],
+        "correcta": "Un documento que autoriza formalmente la existencia de un proyecto y confiere al director de proyecto la autoridad para asignar recursos.",
+        "capitulo": "Parte II - Capítulo 2"
+    },
+    "58": {
+        "pregunta": "¿Que define qué componentes de un plan del proyecto y que documentos son necesarios?",
+        "respuestas": [
+            "Las necesidades del proyecto."
+        ],
+        "correcta": "Las necesidades del proyecto.",
+        "capitulo": "Parte II - Capítulo 2"
+    },
+    "59": {
+        "pregunta": "¿Para qué sirve el EDT/WBS?",
+        "respuestas": [
+            "Subdividir los entregables del proyecto y el trabajo del proyecto en componentes más pequeños."
+        ],
+        "correcta": "Subdividir los entregables del proyecto y el trabajo del proyecto en componentes más pequeños.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "60": {
+        "pregunta": "¿Qué implica una elaboración progresiva?",
+        "respuestas": [
+            "El refinamiento continuo del plan para la dirección del proyecto."
+        ],
+        "correcta": "El refinamiento continuo del plan para la dirección del proyecto.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "61": {
+        "pregunta": "¿Cuales procesos comparan el desempeño del proyecto con las líneas base?",
+        "respuestas": [
+            "Los procesos de Monitoreo y Control."
+        ],
+        "correcta": "Los procesos de Monitoreo y Control.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "62": {
+        "pregunta": "¿Cuál equipo estimula la participación de los interesados relevantes?",
+        "respuestas": [
+            "El equipo de dirección del proyecto."
+        ],
+        "correcta": "El equipo de dirección del proyecto.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "63": {
+        "pregunta": "¿Cuál es la función de secuenciar las actividades?",
+        "respuestas": [
+            "Identificar y documentar las relaciones entre las actividades del proyecto."
+        ],
+        "correcta": "Identificar y documentar las relaciones entre las actividades del proyecto.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "64": {
+        "pregunta": "¿La identificación de riesgos consiste solamente en identificar los riesgos individuales?",
+        "respuestas": [
+            "No", "Sí"
+        ],
+        "correcta": "No",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "65": {
+        "pregunta": "¿Cuál proceso analiza numéricamente el efecto de los riesgos?",
+        "respuestas": [
+            "El proceso de análisis cuantitativo de riesgos."
+        ],
+        "correcta": "El proceso de análisis cuantitativo de riesgos.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "66": {
+        "pregunta": "¿Qué proceso se encarga de  priorizar los riesgos individuales del proyecto para análisis o acción posterior?",
+        "respuestas": [
+            "El proceso de análisis cualitativo de riesgos."
+        ],
+        "correcta": "El proceso de análisis cualitativo de riesgos.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "67": {
+        "pregunta": "¿Qué hace el grupo de procesos de planificación?",
+        "respuestas": [
+            "Desarrollan los componentes del plan para la dirección del proyecto."
+        ],
+        "correcta": "Desarrollan los componentes del plan para la dirección del proyecto.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "68": {
+        "pregunta": "¿Qué produce el esfuerzo de planificación inicial?",
+        "respuestas": [
+            "Una visión inicial de la dirección del proyecto."
+        ],
+        "correcta": "Una visión inicial de la dirección del proyecto.",
+        "capitulo": "Parte II - Capítulo 3"
+    },
+    "69": {
+        "pregunta": "¿Cuál es la función del grupo de procesos de ejecución?",
+        "respuestas": [
+            "Completar el trabajo definido en el plan para la dirección del proyecto."
+        ],
+        "correcta": "Completar el trabajo definido en el plan para la dirección del proyecto.",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "70": {
+        "pregunta": "¿Cuál proceso incrementa la probabilidad de cumplir los objetivos de calidad?",
+        "respuestas": [
+            "El proceso de gestionar la calidad."
+        ],
+        "correcta": "El proceso de gestionar la calidad.",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "71": {
+        "pregunta": "¿Qué proceso se encarga de implementar los cambios aprobados?",
+        "respuestas": [
+            "El proceso de dirigir y gestionar el trabajo del proyecto."
+        ],
+        "correcta": "El proceso de dirigir y gestionar el trabajo del proyecto.",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "72": {
+        "pregunta": "¿Qué proceso obtienen los miembros del equipo?",
+        "respuestas": [
+            "El proceso de adquirir recursos."
+        ],
+        "correcta": "El proceso de adquirir recursos.",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "73": {
+        "pregunta": "¿Qué proceso fomenta la participación de los interesados?",
+        "respuestas": [
+            "El proceso de gestionar la participación de los interesados."
+        ],
+        "correcta": "El proceso de gestionar la participación de los interesados.",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "74": {
+        "pregunta": "¿Qué recursos se obtienen con el proceso de adquirir recursos?",
+        "respuestas": [
+            "Miembros del equipo, instalaciones, equipamiento, materiales, suministros y otros."
+        ],
+        "correcta": "Miembros del equipo, instalaciones, equipamiento, materiales, suministros y otros.",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "75": {
+        "pregunta": "¿Qué significa desarrollar el equipo?",
+        "respuestas": [
+            "Mejorar las competencias, la interacción de los miembros del equipo y el ambiente general del equipo."
+        ],
+        "correcta": "Mejorar las competencias, la interacción de los miembros del equipo y el ambiente general del equipo.",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "76": {
+        "pregunta": "¿Qué proceso se encarga de manejar la información en el proyecto?",
+        "respuestas": [
+            "El proceso de gestionar las comunicaciones."
+        ],
+        "correcta": "El proceso de gestionar las comunicaciones.",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "77": {
+        "pregunta": "¿Cuánto del presupuesto se gasta en el grupo de proceso de ejecución?",
+        "respuestas": [
+            "Gran parte", "Todo", "Nada", "Poco"
+        ],
+        "correcta": "Gran parte",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "78": {
+        "pregunta": "¿Qué proceso obtiene un contrato con los proveedores?",
+        "respuestas": [
+            "Proceso de efectuar las adquisiciones"
+        ],
+        "correcta": "Proceso de efectuar las adquisiciones",
+        "capitulo": "Parte II - Capítulo 4"
+    },
+    "79": {
+        "pregunta": "¿Cuál rol cumple el grupo de procesos de monitoreo y control?",
+        "respuestas": [
+            "Hacer seguimiento, analizar y regular el progreso y el desempeño del proyecto."
+        ],
+        "correcta": "Hacer seguimiento, analizar y regular el progreso y el desempeño del proyecto.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "80": {
+        "pregunta": "¿Cuál proceso hace seguimiento, revisa e informa el avance del proyecto?",
+        "respuestas": [
+            "El proceso de monitorear y controlar el trabajo del proyecto."
+        ],
+        "correcta": "El proceso de monitorear y controlar el trabajo del proyecto.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "81": {
+        "pregunta": "¿Qué proceso revisa todas las solicitudes de cambio, aprueba y gestiona los cambios entregables?",
+        "respuestas": [
+            "El proceso de control integrado de cambios."
+        ],
+        "correcta": "El proceso de control integrado de cambios.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "82": {
+        "pregunta": "¿Qué función cumple monitorear los procesos?",
+        "respuestas": [
+            "Monitorear la implementación de los planes acordados de respuesta a los riesgos."
+        ],
+        "correcta": "Monitorear la implementación de los planes acordados de respuesta a los riesgos.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "83": {
+        "pregunta": "¿Qué tipo de recursos se controlan?",
+        "respuestas": [
+            "Solo los recursos asignados y adjudicados al proyecto."
+        ],
+        "correcta": "Solo los recursos asignados y adjudicados al proyecto.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "84": {
+        "pregunta": "¿Cuáles son los riesgos que se deben monitorear?",
+        "respuestas": [
+            "Los riesgos identificados y nuevos."
+        ],
+        "correcta": "Los riesgos identificados y nuevos.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "85": {
+        "pregunta": "¿Cuál sería el resultado de controlar los costos?",
+        "respuestas": [
+            "Limitarlos a solamente aquellos que son necesarios."
+        ],
+        "correcta": "Limitarlos a solamente aquellos que son necesarios.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "86": {
+        "pregunta": "¿Qué beneficios trae validar el alcance?",
+        "respuestas": [
+            "Aumenta la probabilidad de que el resultado final sea aceptado."
+        ],
+        "correcta": "Aumenta la probabilidad de que el resultado final sea aceptado.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "87": {
+        "pregunta": "¿Qué debe seguir el monitoreo del involucramiento de los interesados?",
+        "respuestas": [
+            "Los planes de involucramiento."
+        ],
+        "correcta": "Los planes de involucramiento.",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "88": {
+        "pregunta": "¿Cuáles adquisiciones se deben controlar?",
+        "respuestas": [
+            "Todas", "Las necesarias", "Ninguna", "Las que el cliente solicite."
+        ],
+        "correcta": "Todas",
+        "capitulo": "Parte II - Capítulo 5"
+    },
+    "89": {
+        "pregunta": "¿Cuáles son los procesos para la gestión de los interesados en el proyecto?",
+        "respuestas": [
+            "Identificar a los interesados del proyecto, Planificar el involucramiento de los interesados, Gestionar el involucramiento de los interesados, Monitorear el Involucramiento de los Interesados."
+        ],
+        "correcta": "Identificar a los interesados del proyecto, Planificar el involucramiento de los interesados, Gestionar el involucramiento de los interesados, Monitorear el Involucramiento de los Interesados.",
+        "capitulo": "Capítulo 13"
+    },
+    "90": {
+        "pregunta": "¿En base a qué se debe de planificar el involucramiento de los interesados en el proyecto?",
+        "respuestas": [
+            "Debe de basarse en el impacto que los interesados pueden tener en el proyecto."
+        ],
+        "correcta": "Debe de basarse en el impacto que los interesados pueden tener en el proyecto.",
+        "capitulo": "Capítulo 13"
+    },
+    "91": {
+        "pregunta": "¿Cómo se determina si se alcanzó el final de un proyecto?",
+        "respuestas": [
+            "Se alcanza cuando se logran los objetivos o cuando se termina el proyecto porque sus objetivos no se cumplirán o no podrán ser cumplidos."
+        ],
+        "correcta": "Se alcanza cuando se logran los objetivos o cuando se termina el proyecto porque sus objetivos no se cumplirán o no podrán ser cumplidos.",
+        "capitulo": "Parte II - Capítulo 1"
+    },
+    "92": {
+        "pregunta": "¿Cuál es el objetivo de monitorear el involucramiento de los interesados?",
+        "respuestas": [
+            "Adaptar y modificar las estrategias de comunicación para involucrar a los interesados."
+        ],
+        "correcta": "Adaptar y modificar las estrategias de comunicación para involucrar a los interesados.",
+        "capitulo": "Capítulo 13"
+    },
+    "93": {
+        "pregunta": "¿Cuál es el objetivo de involucrar a los interesados?",
+        "respuestas": [
+            "Poder identificar intereses, expectativas e impacto en el proyecto."
+        ],
+        "correcta": "Poder identificar intereses, expectativas e impacto en el proyecto.",
+        "capitulo": "Capítulo 13"
+    },
+    "94": {
+        "pregunta": "¿Las actividades de identificación, priorización e involucramiento deberían revisarse y actualizarse periódicamente?",
+        "respuestas": [
+            "Verdadero, durante el transcurso del proyecto los interesados en el proyecto pueden cambiar, o el proyecto puede cambiar de objetivos."
+        ],
+        "correcta": "Verdadero, durante el transcurso del proyecto los interesados en el proyecto pueden cambiar, o el proyecto puede cambiar de objetivos.",
+        "capitulo": "Capítulo 13"
+    },
+    "95": {
+        "pregunta": "¿Cuáles son los beneficios tangibles de un proyecto nuevo?",
+        "respuestas": [
+            "Monetarios, Utilidades y Market share"
+        ],
+        "correcta": "Monetarios, Utilidades y Market share",
+        "capitulo": "Capítulo 1"
+    },
+    "96": {
+        "pregunta": "¿Cuáles son los beneficios intangibles de un nuevo proyecto?",
+        "respuestas": [
+            "Reconocimiento de marca, Reputación y Beneficio de público"
+        ],
+        "correcta": "Reconocimiento de marca, Reputación y Beneficio de público",
+        "capitulo": "Capítulo 1"
+    },
+    "97": {
+        "pregunta": "¿Qué métricas existen para medir el éxito de un proyecto?",
+        "respuestas": [
+            "El éxito de un proyecto puede ser medido por medio del retorno de la inversión, si se cumplieron los objetivos y el periodo de payback. Sin embargo, existen muchas métricas para medir el éxito pero las mencionadas son unas de las más importantes."
+        ],
+        "correcta": "El éxito de un proyecto puede ser medido por medio del retorno de la inversión, si se cumplieron los objetivos y el periodo de payback. Sin embargo, existen muchas métricas para medir el éxito pero las mencionadas son unas de las más importantes.",
+        "capitulo": "Capítulo 1"
+    },
+    "98": {
+        "pregunta": "¿Cuál es la función del administrador del proyecto?",
+        "respuestas": [
+            "El administrador debe  trabajar con el equipo y también con los afectados para determinar el uso apropiado para cada proyecto."
+        ],
+        "correcta": "El administrador debe  trabajar con el equipo y también con los afectados para determinar el uso apropiado para cada proyecto.",
+        "capitulo": "Capítulo 1"
+    },
+    "99": {
+        "pregunta": "¿Cuál es el objetivo de un proyecto nuevo?",
+        "respuestas": [
+            "Es crear un producto único, servicio o resultado, regularmente el resultado es gracias a objetivos planteados en un principio."
+        ],
+        "correcta": "Es crear un producto único, servicio o resultado, regularmente el resultado es gracias a objetivos planteados en un principio.",
+        "capitulo": "Capítulo 1"
+    },
+    "100": {
+        "pregunta": "¿Qué son los EEFs?",
+        "respuestas": [
+            "Son los factores ambientales, es decir las condiciones externas o internas de una organización."
+        ],
+        "correcta": "Son los factores ambientales, es decir las condiciones externas o internas de una organización.",
+        "capitulo": "Capítulo 2"
+    },
+    "101": {
+        "pregunta": "¿Cómo operan los proyectos?",
+        "respuestas": [
+            "Operan gracias a las limitaciones impuestas por el marco de gobernanza."
+        ],
+        "correcta": "Operan gracias a las limitaciones impuestas por el marco de gobernanza.",
+        "capitulo": "Capítulo 2"
+    },
+    "102": {
+        "pregunta": "¿Qué características debe tener un sistema?",
+        "respuestas": [
+            "Un sistema debe ser dinámico, optimizable, y los sistemas no deben ser lineales en su respuesta."
+        ],
+        "correcta": "Un sistema debe ser dinámico, optimizable, y los sistemas no deben ser lineales en su respuesta.",
+        "capitulo": "Capítulo 2"
+    },
+    "103": {
+        "pregunta": "¿Que se debe hacer al haber un cambio?",
+        "respuestas": [
+            "El proyecto debe ser capaz de poder adaptarse a cualquier cambio, y poder seguir trabajando para lograr los objetivos."
+        ],
+        "correcta": "El proyecto debe ser capaz de poder adaptarse a cualquier cambio, y poder seguir trabajando para lograr los objetivos.",
+        "capitulo": "Capítulo 2"
+    },
+    "104": {
+        "pregunta": "¿Qué características un administrador de proyectos debe tener para generar autoridad en una organización?",
+        "respuestas": [
+            "Reglas, Políticas, Procedimientos, etc."
+        ],
+        "correcta": "Reglas, Políticas, Procedimientos, etc.",
+        "capitulo": "Capítulo 2"
+    },
+    "105": {
+        "pregunta": "¿Quién es el líder de un proyecto?",
+        "respuestas": [
+            "El administrador"
+        ],
+        "correcta": "El administrador",
+        "capitulo": "Capítulo 3"
+    },
+    "106": {
+        "pregunta": "¿Qué significa ser responsable de un proyecto?",
+        "respuestas": [
+            "Cumplir con todas las obligaciones asignadas, entregar las tareas a tiempo y trabajar para lograr los objetivos."
+        ],
+        "correcta": "Cumplir con todas las obligaciones asignadas, entregar las tareas a tiempo y trabajar para lograr los objetivos.",
+        "capitulo": "Capítulo 3"
+    },
+    "107": {
+        "pregunta": "¿Que es un project manager?",
+        "respuestas": [
+            "Es la persona asignada por la organización ejecutora para liderar el equipo responsable de lograr los objetivos del proyecto."
+        ],
+        "correcta": "Es la persona asignada por la organización ejecutora para liderar el equipo responsable de lograr los objetivos del proyecto.",
+        "capitulo": "Capítulo 3"
+    },
+    "108": {
+        "pregunta": "¿Qué lineamientos debe seguir un project manager?",
+        "respuestas": [
+            "Exigencias de los recursos, Prioridades de financiación, Distribución de entregables, y Alineación de las metas."
+        ],
+        "correcta": "Exigencias de los recursos, Prioridades de financiación, Distribución de entregables, y Alineación de las metas.",
+        "capitulo": "Capítulo 3"
+    },
+    "109": {
+        "pregunta": "¿Es posible trabajar en un proyecto con más de 100 personas?",
+        "respuestas": [
+            "Sí", "No"
+        ],
+        "correcta": "Sí",
+        "capitulo": "Capítulo 3"
+    }
+}
