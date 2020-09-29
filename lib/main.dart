@@ -32,7 +32,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'PMBOKlingo',
       theme: ThemeData(
+<<<<<<< HEAD
         primarySwatch: Colors.indigoAccent[300],
+=======
+        fontFamily: 'Overpass',
+        primarySwatch: Colors.orange,
+>>>>>>> 6b2d2a2ef379f2b387d7be9f1b945e696cd1811d
         accentColor: Colors.blueAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         inputDecorationTheme: InputDecorationTheme(
@@ -65,8 +70,13 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
+<<<<<<< HEAD
         buttonTheme:
             ButtonThemeData(buttonColor: Color.fromARGB(1, 103, 155, 155)),
+=======
+        buttonTheme: ButtonThemeData(buttonColor: Colors.orange),
+        cardColor: Colors.white,
+>>>>>>> 6b2d2a2ef379f2b387d7be9f1b945e696cd1811d
       ),
       initialRoute: '/login',
       onGenerateRoute: FluroRouter.router.generator,
